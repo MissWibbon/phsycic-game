@@ -4,3 +4,16 @@ body {
 h1 {
     color: blue;
 }
+p {
+    display: inline-block;
+}
+div {
+    display: inline-block;
+}
+.container {
+    max-width: 960px;
+    margin-left: 80px;
+}
+.strong {
+    font-weight: 700;
+}
