@@ -1,19 +1,30 @@
 body {
-    background-color: silver;
+    background-color: #200835;
 }
 h1 {
-    color: blue;
+    background: -webkit-linear-gradient(purple, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 7%;
 }
 p {
     display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+    color: white;
+    margin-left: 5%;
 }
 div {
     display: inline-block;
 }
 .container {
-    max-width: 960px;
-    margin-left: 80px;
+    width: 50%;
+    margin-left: 25%;
 }
 .strong {
     font-weight: 700;
+}
+#computerGuess, #guess, #guessesLeft, #wins, #losses, #guesses{
+    color: pink;
 }
